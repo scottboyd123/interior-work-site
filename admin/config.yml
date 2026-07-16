@@ -38,6 +38,13 @@ collections:
           - { label: "Phone (digits only, for tel: link)", name: "phone_link", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Booking Link URL", name: "booking_url", widget: "string" }
+          - label: "Quotes"
+            name: "quotes"
+            widget: "list"
+            hint: "These are the four pull-quotes shown between sections on the homepage, in order."
+            fields:
+              - { label: "Quote Text", name: "text", widget: "text" }
+              - { label: "Attribution", name: "author", widget: "string" }
 
   - name: "resources"
     label: "Resources Page"
