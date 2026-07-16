@@ -1,0 +1,89 @@
+---
+layout: base.njk
+title: Resources — Scott Boyd, LPC, LAC
+description: Crisis resources, a reading list, and grounding techniques from Scott Boyd, LPC, LAC, Boulder, Colorado.
+permalink: /reading-list/index.html
+---
+<div class="page-header">
+  <div class="wrap">
+    <div class="eyebrow mono">Resources</div>
+    <h1>Crisis resources, reading, and grounding tools</h1>
+    <p>{{ home.hero_desc }}</p>
+  </div>
+</div>
+
+<section class="prose">
+  <div class="wrap narrow">
+    <h2>Emergency/Crisis Resources</h2>
+    <div class="crisis-911">
+      <strong>911</strong> — If you are in a life threatening emergency please call 911
+    </div>
+    <div class="crisis-list">
+      {% for item in resources.crisis_resources %}
+      <div class="row">
+        <strong>{{ item.name | safe }}</strong>
+        <p>{{ item.description | safe }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="prose">
+  <div class="wrap">
+    <h2>Reading List</h2>
+    <div class="book-grid">
+      {% for book in resources.books %}
+      <a href="{{ book.url }}"><div class="book-cover"><img src="{{ book.cover }}" alt="{{ book.title }}"></div></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section class="prose">
+  <div class="wrap narrow">
+    <h2>Resources</h2>
+    <div class="disclaimer">
+      <p style="margin-bottom:0;">The information contained herein is not therapeutic advice nor a substitute for therapy. It should not be used to diagnose or to treat any mental health issue. Neither Scott Boyd, MA, LPC, LAC nor Interior Work Psychotherapy is responsible for the content, claims or representations of the listed sites. These resources are informational only and may or may not be applicable to you and your therapeutic needs. Neither Scott Boyd, MA, LPC, LAC nor Interior Work Psychotherapy endorses any of the businesses, individuals or any other entities associated with this resource list. Neither Scott Boyd, MA, LPC, LAC nor Interior Work Psychotherapy is connected with the sale or promotion of any goods and services listed in these resources.</p>
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="wrap narrow">
+    <h2 style="font-size:22px;">Grounding Techniques</h2>
+    <div class="grounding-img">
+      <img src="https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/4038614f-cd55-4285-8e1a-37b90126606b/Grounding-Techniques.png" alt="Grounding Techniques">
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="wrap narrow">
+    <h2 style="font-size:22px;">The Change Triangle (for processing core emotions)</h2>
+    <p><a href="https://www.hilaryjacobshendel.com/what-is-the-change-triangle-c18dd">hilaryjacobshendel.com/what-is-the-change-triangle-c18dd</a></p>
+    <blockquote class="change-triangle-quote">"The Change Triangle is a place to turn to in that immediate moment when something within you, or someone or something in your environment causes you to experience emotional struggle. I turn to The Change Triangle because almost as soon as I figure out "where I am on The Triangle" I feel better for two reasons: 1) just from gaining some distance and perspective from my immediate feeling; and 2) from having some direction of what to do to help myself feel better."</blockquote>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="wrap narrow">
+    <h2 style="font-size:22px;">Ventral Vagal Activation</h2>
+    <p>Positive emotions and experiences are central in ventral vagal activation</p>
+    <div class="vagal-list">
+      <div class="row">
+        <strong>The Diving Reflex</strong>
+        <p>Put cold water or ice on your face. This activates a parasympathetic reaction that slows you down when you are hyperaroused (as though you were drowning – it is meant to conserve energy)</p>
+      </div>
+      <div class="row">
+        <strong>The Valsalva maneuver</strong>
+        <p>Hold your breath and push as though you were having a bowel movement. This activates the vagus nerve and slows the heart</p>
+      </div>
+    </div>
+    <p style="margin-top:22px;"><a href="https://www.hilaryjacobshendel.com/what-is-the-change-triangle-c18dd" style="color:var(--ink);border-bottom:1px solid var(--gold);text-decoration:none;">Learn more</a></p>
+  </div>
+</section>
