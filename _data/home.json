@@ -9,5 +9,11 @@
   "phone": "(720) 316-5765",
   "phone_link": "17203165765",
   "email": "scott@interiorworkpsychotherapy.com",
-  "booking_url": "https://interior-work-psychotherapy.clientsecure.me"
+  "booking_url": "https://interior-work-psychotherapy.clientsecure.me",
+  "quotes": [
+    { "text": "\u2026we do what we need to get us through the night, and then, ironically, often remain stuck in these constrained strategies and perspectives in the light of day.", "author": "Sue Johnson" },
+    { "text": "Happiness is not something we experience. It is what we are when we stop being what we are not.", "author": "Rupert Spira" },
+    { "text": "Nothing ever goes away until it has taught us what we need to know.", "author": "Pema Chodron" },
+    { "text": "As every therapist will tell you, healing involves discomfort. But so is refusing to heal. And over time, refusing to heal is always more painful.", "author": "Resmaa Menakem" }
+  ]
 }
