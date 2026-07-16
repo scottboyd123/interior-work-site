@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "home"
+    label: "Home Page"
+    files:
+      - name: "home"
+        label: "Home Page Content"
+        file: "_data/home.json"
+        fields:
+          - { label: "Hero Description", name: "hero_desc", widget: "text" }
+          - { label: "About / Bio", name: "about_bio", widget: "text" }
+          - { label: "Rate Line", name: "rate_line", widget: "string" }
+          - { label: "Cancellation Policy", name: "cancellation_policy", widget: "text" }
+          - { label: "Insurance Note", name: "insurance_note", widget: "text" }
+          - { label: "Address Line 1", name: "address_line1", widget: "string" }
+          - { label: "Address Line 2", name: "address_line2", widget: "string" }
+          - { label: "Phone (display)", name: "phone", widget: "string" }
+          - { label: "Phone (digits only, for tel: link)", name: "phone_link", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Booking Link URL", name: "booking_url", widget: "string" }
+
+  - name: "resources"
+    label: "Resources Page"
+    files:
+      - name: "resources"
+        label: "Resources Page Content"
+        file: "_data/resources.json"
+        fields:
+          - label: "Crisis Resources"
+            name: "crisis_resources"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+          - label: "Reading List Books"
+            name: "books"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Amazon URL", name: "url", widget: "string" }
+              - { label: "Cover Image URL", name: "cover", widget: "string" }

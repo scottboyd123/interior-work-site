@@ -1,0 +1,38 @@
+{
+  "crisis_resources": [
+    {
+      "name": "Colorado Crisis Services (CCS)",
+      "description": "Monitors a 24-hour support line for anyone affected by a mental health, substance use or emotional crisis. All calls and texts are connected to a mental health professional who will provide immediate support, as well as connections to further resources, including linkage to the closest walk-in crisis center or dispatch of the mobile crisis unit. Call 1-844-493-TALK or text TALK to 38255"
+    },
+    {
+      "name": "Walk-in Crisis Center & Addiction Services",
+      "description": "Mental Health Partners' Walk-In Crisis Center is open in Boulder 24 hours a day, 7 days a week. Services include confidential, in-person support, information and referrals to anyone in need. The center is available to those in need of direct services or those seeking to help engage another person in services, whether the crisis is substance-use related, or psychiatric or both. 3180 Airport Road, Boulder, CO."
+    },
+    {
+      "name": "Crisis Text Line",
+      "description": "Provides free, 24/7, high-quality text-based mental health support and crisis intervention by empowering a community of trained volunteers to support people in their moments of need - https://www.crisistextline.org"
+    },
+    {
+      "name": "988 Suicide and Crisis Lifeline",
+      "description": "The 988 Suicide & Crisis Lifeline (formerly known as the National Suicide Prevention Lifeline) provides free and confidential emotional support to people in suicidal crisis or emotional distress 24 hours a day, 7 days a week, across the United States. The Lifeline is comprised of a national network of over 200 local crisis centers, combining custom local care and resources with national standards and best practices. Dial 988."
+    }
+  ],
+  "books": [
+    { "title": "Awareness by Anthony de Mello", "url": "https://www.amazon.com/Awareness-Opportunities-Reality-Anthony-Paperback/dp/B00ZT18PNO/", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1667840054743-RWC3IEJDS6FVKRAVVJTZ/9780385249379-us.jpg" },
+    { "title": "The Diamond in Your Pocket by Gangaji", "url": "https://www.amazon.com/Diamond-Your-Pocket-Discovering-Radiance/dp/1591795524", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1667840049141-LXI4QFEDN57D509WQOEH/9781591795520-us.jpg" },
+    { "title": "Conscious Loving: The Journey to Co-Commitment", "url": "https://www.amazon.com/Conscious-Loving-Co-Commitment-Gay-Hendricks/dp/0553354116", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1667840055876-FTFCD7C69VO4FSNDNIA0/51KBvcl-8eL._SL350_.jpg" },
+    { "title": "It's Not Always Depression", "url": "https://www.amazon.com/Its-Not-Always-Depression-Authentic/dp/0399588140", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1671220219551-OXUL7BGJF9M5KQ0GN04R/Its-Not-always-Depression.jpg" },
+    { "title": "Hold Me Tight by Sue Johnson", "url": "https://www.amazon.com/Hold-Me-Tight-Conversations-Lifetime-ebook/dp/B0011UGLQK/", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1667840050142-ABXQO6X5K3I0QCE4BOG5/8CFD7CB56C9164A5A0505F018D978064877ECA69.jpg" },
+    { "title": "Love Sense by Sue Johnson", "url": "https://www.amazon.com/Love-Sense-Revolutionary-Romantic-Relationships/dp/0316133760", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1667840056916-M8HQK8V1UDDR336EH9IY/Love-Sense-Johnson-Sue-9780316133760.jpg" },
+    { "title": "Good Inside by Becky Kennedy", "url": "https://www.amazon.com/Good-Inside-Guide-Becoming-Parent/dp/0063159481/", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1667840057862-X7M665RRTKWI5HCGKD1H/41%2BsszrjuTL._AC_SY780_.jpg" },
+    { "title": "No Bad Parts by Richard C. Schwartz PhD", "url": "https://www.amazon.com/No-Bad-Parts-Restoring-Wholeness/dp/B09GKXH7QW/", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1667840052602-RBMHVEZ3RPMOHMC071SW/3C0CC5DB1511484B0859625CE4A2006BADBE5CC9.jpg" },
+    { "title": "Power of Now by Eckhart Tolle", "url": "https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1667840053816-2LFMI41AM0PSFQ98OSRP/9781577314806-us.jpg" },
+    { "title": "Why Do We Get Sick by Benjamin Bikman", "url": "https://www.amazon.com/Why-We-Get-Sick-Disease-ebook/dp/B07ZKZ2NRN", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1693249754791-AED9SNG2ZAG3REWC0WZB/51U%2BlSyWuhS._SY346_.jpg" },
+    { "title": "Brain Energy by Christopher Palmer", "url": "https://www.amazon.com/Brain-Energy-Revolutionary-Understanding-Health-ebook/dp/B09SKPDT36", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1693249810184-CX3R9MLTE5ORWL2399LN/image.jpeg" },
+    { "title": "Being Aware of Being Aware", "url": "https://www.amazon.com/Being-Aware-Essence-Meditation-ebook/dp/B01LVUV9RY", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1754318356546-M1A53LVMH7OCZU6AN7BC/61P-ZJIiPbL._SL1500_.jpg" },
+    { "title": "Be as You Are", "url": "https://www.amazon.com/Be-As-You-Are-Teachings/dp/0140190627", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1754318635978-L9POJ0LJLIA53P58RIAL/81PgeF1kEzL._SL1500_.jpg" },
+    { "title": "I Am Not the Body", "url": "https://www.amazon.com/Am-Not-Body-Discovering-Bondage/dp/1838304908", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1754318636099-M4HVJ0K3GK1WA9BEV6OZ/61-VsZsIyuL._SL1500_.jpg" },
+    { "title": "Magic of Awareness", "url": "https://www.amazon.com/Magic-Awareness-Anam-Thubten/dp/1559393920", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1754318637010-BT2Z99SMI1I6B62SJKU6/61EzqGql9zL._SL1500_.jpg" },
+    { "title": "I Am That", "url": "https://www.amazon.com/That-Talks-Sri-Nisargadatta-Maharaj-ebook/dp/B0DCDCY5Y4", "cover": "https://images.squarespace-cdn.com/content/v1/5d98ea7cccb75449623cde78/1754318637318-0RU47YW270QR4VV9O2P0/71sT0z6z4vL._SL1500_.jpg" }
+  ]
+}
